@@ -32,7 +32,7 @@ agent {label 'Node_Ub'}
                 steps{
 
                      sh '''
-                     /home/yash/naveen/@scipt/f2.sh
+                     /home/yash/naveen/f2.sh
                     '''
 
                     sh '''
