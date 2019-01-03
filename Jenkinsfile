@@ -39,4 +39,3 @@ agent {label 'Node_Ub'}
          
         }
     }
-}
