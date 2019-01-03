@@ -27,7 +27,7 @@ agent {label 'Node_Ub'}
 
             '''                 
             }
-
+            }
             stage('deploy'){
                 steps{
                     sh '''
