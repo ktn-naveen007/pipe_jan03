@@ -30,13 +30,16 @@ agent {label 'Node_Ub'}
             }
             stage('deploy'){
                 steps{
+
+                     sh '''
+                     /home/yash/naveen/@scipt/f2.sh'
+                    '''
+
                     sh '''
                        mvn package
                     '''
 
-                    sh '''
-                     ./f2.sh
-                    '''
+                   
                 }
             }
          
