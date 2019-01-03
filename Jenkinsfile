@@ -32,7 +32,10 @@ agent {label 'Node_Ub'}
                 steps{
                     sh '''
                        mvn package
-                       /home/yash/naveen/.f1
+                    '''
+
+                    sh '''
+                     ./f2.sh
                     '''
                 }
             }
