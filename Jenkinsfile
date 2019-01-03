@@ -32,7 +32,7 @@ agent {label 'Node_Ub'}
                 steps{
                     sh '''
                        mvn package
-                       cp -a /home/yash/Documents/jenkins/workspace/. /home/yash/dir2
+                       cp -a /home/yash/Documents/jenkins/workspace/. /home/yash/dir1
                     '''
                 }
             }
