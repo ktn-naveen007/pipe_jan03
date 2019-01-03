@@ -1,5 +1,5 @@
 pipeline{
-agent {label 'Node_ub'}
+agent {label 'Node_Ub'}
     stages{
         stage('initialize'){
             steps{
@@ -18,7 +18,7 @@ agent {label 'Node_ub'}
 
             '''                 
             }
-
+        }
             stage('test'){
             steps{
                 echo 'test phase'
